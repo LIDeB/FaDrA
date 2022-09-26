@@ -1,0 +1,18 @@
+name: LUDe
+channels:
+- rdkit
+- conda-forge
+- defaults
+dependencies:
+    - libgcc=5.2.0
+    - pip
+    - pip:
+        - streamlit
+        - pandas==1.0.1
+        - numpy==1.18.1
+        - plotly
+        - xgboost==1.0.2
+        - biopython
+        - streamlit_tags
+        - git+https://github.com/gadsbyfly/PyBioMed
+        - protobuf~=3.19.0
