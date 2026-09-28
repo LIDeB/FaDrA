@@ -5,6 +5,7 @@ channels:
 - defaults
 dependencies:
     - libgcc=5.2.0
+    - setuptools
     - pip
     - pip:
         - streamlit==1.40.2
