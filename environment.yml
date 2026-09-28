@@ -7,7 +7,7 @@ dependencies:
     - libgcc=5.2.0
     - pip
     - pip:
-        - streamlit==1.16.0
+        - streamlit==1.15.0
         - pandas==1.0.1
         - numpy==1.18.1
         - plotly
